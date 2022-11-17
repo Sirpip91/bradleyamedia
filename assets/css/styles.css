@@ -465,7 +465,18 @@ body.dark-theme {
   background-color: var(--text-color-light);
 }
 
+.services__img{
+  height: 9rem;
+}
 
+.nav__logo:hover{
+  transform: rotate(360deg) scale(1.2);
+}
+
+.b1:hover{
+  font-size: 1.5rem;
+  transition: transform .3s;
+}
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
