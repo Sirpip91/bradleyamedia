@@ -465,11 +465,22 @@ body.dark-theme {
   background-color: var(--text-color-light);
 }
 
+
+
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
   .svg__img {
     width: 100%;
+  }
+  .home__img{
+    height: 300px;
+  }
+  .about__img{
+    height: 300px;
+  }
+  .svg__img{
+    height: 300px;
   }
   .section {
     padding: 3.5rem 0 1rem;
@@ -501,6 +512,7 @@ body.dark-theme {
   }
   .home__img {
     order: 1;
+    
   }
   .home__container,
   .about__container,
