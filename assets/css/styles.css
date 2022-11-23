@@ -484,10 +484,17 @@ body.dark-theme {
 .button:hover{
   font-size: 1.2rem;
 }
+.calendly-inline-widget{
+  height: 1000px;
+ }
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 375px) {
+
+  .calendly-inline-widget{
+   height: 1000px;
+  }
   .svg__img {
     width: 100%;
   }
@@ -511,8 +518,15 @@ body.dark-theme {
   }
 }
 
+@media screen and (min-width: 650px) {
+  .calendly-inline-widget{
+    height: 1500px;
+   }
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
+  
   .svg__img {
     width: 100%;
   }
@@ -611,6 +625,12 @@ body.dark-theme {
 }
 
 @media screen and (min-width: 1024px) {
+  .calendly-inline-widget{
+    overflow-y: hidden;
+    min-width:320px;
+    height:750px;
+    max-height: 800px;
+  }
   .container {
     margin-left: auto;
     margin-right: auto;
