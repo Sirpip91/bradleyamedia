@@ -490,10 +490,12 @@ body.dark-theme {
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
 
   .calendly-inline-widget{
-   height: 1000px;
+   overflow-y: hidden;
+    min-width:320px;
+    height: 1000px;
   }
   .svg__img {
     width: 100%;
