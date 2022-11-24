@@ -365,6 +365,7 @@ body.dark-theme {
 }
 
 .contact__information {
+  text-decoration: none;
   font-weight: initial;
   color: var(--text-color);
 }
