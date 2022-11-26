@@ -325,81 +325,6 @@ body.dark-theme {
   margin-bottom: var(--mb-0-5);
 }
 
-
-/*==================== PORTFOLIO ====================*/
-.portfolio__container{
-  overflow: initial;
-}
-
-.portfolio__content{
-  padding: 0 1.5rem;
-}
-
-.portfolio__img{
-  width: 265px;
-  border-radius: .5rem;
-  justify-self: center;
-}
-
-.portfolio_img_phone{
-  width: auto;
-  height: 400px;
-}
-
-.portfolio__title{
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-0-5);
-}
-.section__subtitle{
-  display: block;
-  margin-bottom: var(--mb-3);
-  text-align: center;
-  padding-bottom: 1.5rem;
-}
-.portfolio__description{
-  margin-bottom: var(--mb-0-75);
-}
-.portfolio__button{
-  padding: 1rem;
-  z-index: 100;
-}
-.portfolio__button:hover .button__arrow{
-  transform: translateX(.25rem);
-}
-
-
-.swiper-button-prev::after,
-.swiper-button-next::after{
-  display: none;
-}
-
-.swiper-portfolio-icon{
-  font-size: 2.5rem;
-  color: var(blue);
-}
-
-.swiper-button-prev{
-  left: -1rem;
-}
-
-.swiper-button-next{
-  right: -1rem;
-}
-
-.swiper-container-horizontal > .swiper-pagination-bullets{
-  bottom: -2.5rem;
-}
-
-.swiper-pagination-bullet-active{
-  background-color: var(--first-color);
-}
-
-.swiper-button-prev,
-.swiper-button-next,
-.swiper-pagination-bullet{
-  outline: none;
-}
-
 /*=============== APP ===============*/
 .app__container {
   gap: 2.5rem;
@@ -604,18 +529,6 @@ body.dark-theme {
   .app__buttons {
     grid-template-columns: max-content;
   }
-  .portfolio__img{
-    width: 300px;
-}
-
-.swiper-button-prev{
-left: 1.5rem;
-}
-
-.swiper-button-next{
-    right: 1.5rem;
-}
-
 }
 
 
@@ -634,7 +547,7 @@ left: 1.5rem;
   .home__container,
   .about__container,
   .security__container,
-  .services__container,.portfolio__container,
+  .services__container,
   .app__container,
   .contact__container,
   .footer__container {
@@ -647,7 +560,7 @@ left: 1.5rem;
   .home__container,
   .about__container,
   .security__container,
-  .app__container,.portfolio__container,
+  .app__container,
   .contact__container {
     align-items: center;
   }
@@ -689,22 +602,6 @@ left: 1.5rem;
   .app__buttons {
     justify-content: initial;
   }
-  .portfolio_img_phone{
-    height: 500px;
-}
-
-.portfolio__content{
-    align-items: center;
-}
-
-.project_bg{
-    border-radius: 1rem;
-}
-
-.project__data{
-    padding-top: .8rem;
-}
-
 }
 
 /* For large devices */
@@ -719,7 +616,7 @@ left: 1.5rem;
   .about__container,
   .security__container,
   .app__container,
-  .contact__container,.portfolio__container {
+  .contact__container {
     column-gap: 6rem;
   }
   .services__container {
@@ -737,26 +634,6 @@ left: 1.5rem;
   .footer__social-link {
     font-size: 1.45rem;
   }
-
-  .portfolio__content{
-    column-gap: 5rem;
-}
-
-.swiper-portfolio-icon{
-    font-size: 3.5rem;
-}
-
-.swiper-button-prev{
-    left: -3.5rem;
-}
-
-.swiper-button-next{
-    right: -3.5rem;
-}
-
-.swiper-container-horizontal > .swiper-pagination-bullets{
-    bottom: -4.5rem;
-}
 }
 
 @media screen and (min-width: 1024px) {
