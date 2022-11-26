@@ -370,6 +370,8 @@ body.dark-theme {
   color: var(--text-color);
 }
 
+/*=============== WORK ===============*/
+
 /*=============== FOOTER ===============*/
 .footer {
   background-color: var(--first-color-lighten);
